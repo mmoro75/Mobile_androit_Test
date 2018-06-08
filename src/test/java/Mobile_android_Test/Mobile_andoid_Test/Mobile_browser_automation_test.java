@@ -19,7 +19,6 @@ import org.testng.Assert;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import io.appium.java_client.functions.ExpectedCondition;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class Mobile_browser_automation_test {

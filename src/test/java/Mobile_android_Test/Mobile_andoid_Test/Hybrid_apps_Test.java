@@ -2,31 +2,22 @@ package Mobile_android_Test.Mobile_andoid_Test;
 
 
 	
-	
-	/* hybrid apps are native apps combines with web 
-	 *  to deal with them you have to switch between the 2 while testing 
-	 */
-	
-	import static org.junit.Assert.assertEquals;
 
-	import java.io.File;
-	import java.net.MalformedURLException;
-	import java.net.URL;
-	import java.time.Duration;
+import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-	import org.junit.After;
-	import org.junit.Before;
-	import org.junit.Test;
-	import org.openqa.selenium.By;
-	import org.openqa.selenium.remote.DesiredCapabilities;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
-	import io.appium.java_client.TouchAction;
-	import io.appium.java_client.android.AndroidDriver;
-	import io.appium.java_client.android.AndroidElement;
-	import io.appium.java_client.android.AndroidKeyCode;
-	import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.remote.MobileCapabilityType;
 
 
 
