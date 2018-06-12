@@ -1,6 +1,9 @@
 package Mobile_android_Test.Mobile_andoid_Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static org.testng.Assert.assertSame;
 
 import java.io.File;
 import java.net.MalformedURLException;
@@ -12,6 +15,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.TouchAction;
@@ -154,7 +158,7 @@ public class AndroidMobileTest {
 	    // in Android code every page has got an activity and there are time when Activities have to be validated
 	    
 	    System.out.println(driver.currentActivity());
-	    
+	    assertEquals(".ApiDemos",driver.currentActivity());
 	    /* there are 3 types of views and get context gives you that  
 	     * 
 	     * view - Native (means you are mobile gestures view)
@@ -166,15 +170,16 @@ public class AndroidMobileTest {
 	     */
 	    
 	    System.out.println(driver.getContext());	
-	    
-	    // there are 2 types of orientation - landscape and portrate 
+	    assertEquals("NATIVE_APP",driver.getContext());
+	    // there are 2 types of orientation - landscape and portrait 
 	    
 	    System.out.println(driver.getOrientation());
+	  //  assertEquals("PORTRAIT", driver.getOrientation());
 	    
 	    // check if device is locked or not gives true or false 
 	    
 	    System.out.println(driver.isLocked());
-	    
+	    assertFalse("false", driver.isLocked());
 	    driver.hideKeyboard(); // to remove keyboard in case needed 
 	    
 	    // click on the back button to get to homepage 
@@ -188,6 +193,10 @@ public class AndroidMobileTest {
 	    driver.pressKeyCode(AndroidKeyCode.KEYCODE_HOME);
 	    	
 	    }
+	    
+	      
+	    
+	    
 	
 	@After 
 	public void tearDown(){

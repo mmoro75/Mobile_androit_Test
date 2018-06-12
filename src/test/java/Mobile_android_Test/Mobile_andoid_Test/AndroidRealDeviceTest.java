@@ -75,10 +75,7 @@ public class AndroidRealDeviceTest {
 		TouchAction ta = new TouchAction(driver);
 		ta.press(starty, x).waitAction().moveTo(endy, x * 2).release().perform();
 		
-		driver.findElementByXPath("//android.widget.TextView[@text='Views']").click();
-    	driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));");
-    	
-    	
+	
 		
 	}
 			
