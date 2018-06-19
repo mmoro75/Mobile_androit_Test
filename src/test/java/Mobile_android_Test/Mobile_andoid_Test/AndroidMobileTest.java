@@ -2,9 +2,6 @@ package Mobile_android_Test.Mobile_andoid_Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-import static org.testng.Assert.assertSame;
-
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -15,7 +12,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.TouchAction;
