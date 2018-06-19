@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest" time="401.392" tests="6" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Mobile_android_Test.Mobile_andoid_Test.AndroidRealDeviceTest" time="30.634" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,48 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testKeyEvents" classname="Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest" time="106.1"/>
-  <testcase name="testGestures" classname="Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest" time="67.731">
-    <error message="Returned value cannot be converted to WebElement: {error=no such element, message=An element could not be located on the page using the given search parameters., stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.&#10;    at AndroidDriver.callee$0$0$ (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)&#10;    at tryCatch (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)&#10;    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)&#10;    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)&#10;    at GeneratorFunctionPrototype.invoke (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)&#10;    at &lt;anonymous&gt;}&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;U6017127-TPD-A&apos;, ip: &apos;10.9.215.84&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-Returned value cannot be converted to WebElement: {error=no such element, message=An element could not be located on the page using the given search parameters., stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
-    at AndroidDriver.callee$0$0$ (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
-    at tryCatch (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
-    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
-    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
-    at GeneratorFunctionPrototype.invoke (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
-    at <anonymous>}
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'U6017127-TPD-A', ip: '10.9.215.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: AndroidDriver
-	at Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest.testGestures(AndroidMobileTest.java:92)
-Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
-	at Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest.testGestures(AndroidMobileTest.java:92)
-]]></error>
-    <system-err><![CDATA[Jun 19, 2018 4:16:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="testSwipe" classname="Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest" time="71.53">
-    <error message="Returned value cannot be converted to WebElement: {error=no such element, message=An element could not be located on the page using the given search parameters., stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.&#10;    at AndroidDriver.callee$0$0$ (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)&#10;    at tryCatch (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)&#10;    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)&#10;    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)&#10;    at GeneratorFunctionPrototype.invoke (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)&#10;    at &lt;anonymous&gt;}&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;U6017127-TPD-A&apos;, ip: &apos;10.9.215.84&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-Returned value cannot be converted to WebElement: {error=no such element, message=An element could not be located on the page using the given search parameters., stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
-    at AndroidDriver.callee$0$0$ (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
-    at tryCatch (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
-    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
-    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
-    at GeneratorFunctionPrototype.invoke (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
-    at <anonymous>}
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'U6017127-TPD-A', ip: '10.9.215.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: AndroidDriver
-	at Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest.testSwipe(AndroidMobileTest.java:111)
-Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
-	at Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest.testSwipe(AndroidMobileTest.java:111)
-]]></error>
-    <system-err><![CDATA[Jun 19, 2018 4:17:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="testWifi" classname="Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest" time="77.588"/>
-  <testcase name="testDragNdrop" classname="Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest" time="31.874"/>
-  <testcase name="testScroll" classname="Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest" time="46.567"/>
+  <testcase name="SrollOnRealMobileTest" classname="Mobile_android_Test.Mobile_andoid_Test.AndroidRealDeviceTest" time="30.633"/>
 </testsuite>

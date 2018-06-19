@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: Mobile_android_Test.Mobile_andoid_Test.Hybrid_apps_Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 37.928 s <<< FAILURE! - in Mobile_android_Test.Mobile_andoid_Test.Hybrid_apps_Test
+HybridSwitchTest(Mobile_android_Test.Mobile_andoid_Test.Hybrid_apps_Test)  Time elapsed: 37.921 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Returned value cannot be converted to WebElement: {error=invalid selector, message=Locator Strategy 'name' is not supported for this session, stacktrace=InvalidSelectorError: Locator Strategy 'name' is not supported for this session
+    at AndroidDriver.validateLocatorStrategy (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\driver.js:328:13)
+    at AndroidDriver.callee$0$0$ (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:19:8)
+    at tryCatch (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at invoke (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at enqueueResult (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+    at AsyncIterator.enqueue (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at Object.runtime.async (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+    at AndroidDriver.callee$0$0 [as findElOrElsWithProcessing] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\build\lib\basedriver\commands\find.js:35:30)
+    at AndroidDriver.callee$0$0$ (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:35:21)
+    at tryCatch (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at invoke (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at enqueueResult (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+    at AsyncIterator.enqueue (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at Object.runtime.async (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+    at AndroidDriver.callee$0$0 [as findElement] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\build\lib\basedriver\commands\find.js:76:30)
+    at C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\driver.js:275:26
+    at tryCatcher (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\bluebird\js\main\util.js:26:23)
+    at Promise._settlePromiseFromHandler (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\bluebird\js\main\promise.js:510:31)
+    at Promise._settlePromiseAt (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\bluebird\js\main\promise.js:584:18)
+    at Promise._settlePromiseAtPostResolution (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\bluebird\js\main\promise.js:248:10)
+    at Async._drainQueue (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\bluebird\js\main\async.js:128:12)
+    at Async._drainQueues (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\bluebird\js\main\async.js:133:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\bluebird\js\main\async.js:15:14)
+    at runCallback (timers.js:794:20)
+    at tryOnImmediate (timers.js:752:5)
+    at processImmediate [as _immediateCallback] (timers.js:729:5)}
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'U6017127-TPD-A', ip: '10.9.215.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: AndroidDriver
+	at Mobile_android_Test.Mobile_andoid_Test.Hybrid_apps_Test.HybridSwitchTest(Hybrid_apps_Test.java:69)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
+	at Mobile_android_Test.Mobile_andoid_Test.Hybrid_apps_Test.HybridSwitchTest(Hybrid_apps_Test.java:69)
+

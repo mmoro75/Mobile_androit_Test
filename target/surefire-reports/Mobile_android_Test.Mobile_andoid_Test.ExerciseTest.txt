@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: Mobile_android_Test.Mobile_andoid_Test.ExerciseTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 187.095 s <<< FAILURE! - in Mobile_android_Test.Mobile_andoid_Test.ExerciseTest
+NoAccountTest(Mobile_android_Test.Mobile_andoid_Test.ExerciseTest)  Time elapsed: 84.085 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: identifierNext (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at Mobile_android_Test.Mobile_andoid_Test.ExerciseTest.NoAccountTest(ExerciseTest.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.id: identifierNext
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'U6017127-TPD-A', ip: '10.9.215.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at Mobile_android_Test.Mobile_andoid_Test.ExerciseTest.NoAccountTest(ExerciseTest.java:56)
+
+ToggleTest(Mobile_android_Test.Mobile_andoid_Test.ExerciseTest)  Time elapsed: 103.01 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Returned value cannot be converted to WebElement: {error=invalid selector, message=Argument was an invalid selector (e.g. XPath/CSS)., stacktrace=InvalidSelectorError: Argument was an invalid selector (e.g. XPath/CSS).
+    at errorFromMJSONWPStatusCode (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:769:12)
+    at Socket.<anonymous> (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-bootstrap\lib\bootstrap.js:129:18)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:246:13)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)}
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'U6017127-TPD-A', ip: '10.9.215.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: AndroidDriver
+	at Mobile_android_Test.Mobile_andoid_Test.ExerciseTest.ToggleTest(ExerciseTest.java:70)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
+	at Mobile_android_Test.Mobile_andoid_Test.ExerciseTest.ToggleTest(ExerciseTest.java:70)
+

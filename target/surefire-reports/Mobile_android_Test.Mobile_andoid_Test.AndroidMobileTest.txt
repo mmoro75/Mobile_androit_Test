@@ -1,4 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.163 sec
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 401.392 s <<< FAILURE! - in Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest
+testGestures(Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest)  Time elapsed: 67.731 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Returned value cannot be converted to WebElement: {error=no such element, message=An element could not be located on the page using the given search parameters., stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>}
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'U6017127-TPD-A', ip: '10.9.215.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: AndroidDriver
+	at Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest.testGestures(AndroidMobileTest.java:92)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
+	at Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest.testGestures(AndroidMobileTest.java:92)
+
+testSwipe(Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest)  Time elapsed: 71.53 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Returned value cannot be converted to WebElement: {error=no such element, message=An element could not be located on the page using the given search parameters., stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:69:13)
+    at tryCatch (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\u6017127\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>}
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'U6017127-TPD-A', ip: '10.9.215.84', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: AndroidDriver
+	at Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest.testSwipe(AndroidMobileTest.java:111)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
+	at Mobile_android_Test.Mobile_andoid_Test.AndroidMobileTest.testSwipe(AndroidMobileTest.java:111)
+
